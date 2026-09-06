@@ -2,6 +2,7 @@ package pageobjects;
 
 // Import class packages for this Page Object (PO)
 import org.openqa.selenium.WebDriver; // Selenium WebDriver
+
 import framework.automation.FW_Page; // Automation framework Page Object (PO) class
 import framework.utilities.FW_ConfigMgr; // Automation framework Configuration Manager to retrieve testConfig.properties values
 import framework.utilities.FW_StringUtils; // Automation framework String Utilities
@@ -15,7 +16,7 @@ import framework.utilities.FW_StringUtils; // Automation framework String Utilit
 public class PO_Twitter extends FW_Page {
 
     // [Note: Automation Engineer, define the Page Object (PO) locators (LO) here.]
-    private static final String LO_IMG_SAUCE_LABS = "//span[@class='css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3']//span[@class='css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3'][normalize-space()='Sauce Labs']";
+    private static final String LO_IMG_SAUCE_LABS = "//h1[normalize-space()='Sauce Labs']";
 
     /**
      * Define the Page Object (PO) constructor.
