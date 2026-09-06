@@ -30,9 +30,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	
 	<!-- Project Details -->
-  	<url>http://www.muraho.tech</url>					<!-- URL to the project homepage -->
-	<groupId>tech.muraho.automation</groupId>			<!-- Project identification (This is the "Template" project) -->
-	<artifactId>Template</artifactId>					<!-- Project name (This is the "Template" project) -->
+  	<url>https://github.com/LensKimenyi/SwagLabs-Test-Automation</url>					<!-- URL to the project homepage -->
+	<groupId>com.lenskimenyi.automation</groupId>			<!-- Project identification -->
+	<artifactId>SwagLabs-Test-Automation</artifactId>					<!-- Project name -->
 	
 	<version>0.0.1-SNAPSHOT</version>					<!-- Leave as "0.0.1-SNAPSHOT" which will continually check for component updates -->	
 	<modelVersion>4.0.0</modelVersion>					<!-- Project Object Model version being used -->

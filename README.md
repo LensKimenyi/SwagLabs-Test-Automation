@@ -13,39 +13,44 @@ Manual testing of e-commerce applications can be repetitive and time-consuming, 
 ## Automated Test Coverage
 
 ### Authentication
-- Login with valid credentials
-- Login with invalid credentials
-- Error message validation
+
+* Login with valid credentials
+* Login with invalid credentials
+* Error message validation
 
 ### Products
-- View product details
-- Test product interactions
-- Validate multiple products
+
+* View product details
+* Test product interactions
+* Validate multiple products
 
 ### Cart Management
-- Add products to the cart
-- Remove products from the cart
-- Validate cart functionality
+
+* Add products to the cart
+* Remove products from the cart
+* Validate cart functionality
 
 ### Checkout
-- Complete checkout workflows
-- Enter customer information
-- Validate order overview and completion
+
+* Complete checkout workflows
+* Enter customer information
+* Validate order overview and completion
 
 ### Navigation
-- Navigate through application pages
-- Validate application links
-- Test social media navigation
+
+* Navigate through application pages
+* Validate application links
+* Test social media navigation
 
 ## Tools and Technologies
 
-- Java
-- Selenium WebDriver
-- JUnit 5
-- Maven
-- Page Object Model (POM)
-- Allure Reporting
-- Git and GitHub
+* Java
+* Selenium WebDriver
+* JUnit 5
+* Maven
+* Page Object Model (POM)
+* Allure Reporting
+* Git and GitHub
 
 ## Project Structure
 
@@ -58,17 +63,22 @@ src/test/java/
 ├── TS_Checkout_JUnit.java
 ├── TS_Navigation_JUnit.java
 └── TS_Product_JUnit.java
+```
 
 ## How to Run the Tests
 
 Clone the repository:
 
-git clone <repository-url>
-cd Automation-JAV-SwagLabs-Claudine
+```bash
+git clone https://github.com/LensKimenyi/SwagLabs-Test-Automation.git
+cd SwagLabs-Test-Automation
+```
 
 Run the test suite:
 
+```bash
 mvn test
+```
 
 ## Reporting
 
@@ -89,4 +99,3 @@ QA Automation Engineer | Quality Engineering | Test Automation
 Based in Kigali, Rwanda
 
 [LinkedIn](https://www.linkedin.com/in/claudine-mukakimenyi-4155b61a9/)
-
