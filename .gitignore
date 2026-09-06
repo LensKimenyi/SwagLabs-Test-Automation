@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Maven
+target/
+
+# Allure generated files
+.allure/
+allure-report/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Allure test results
+allure-results/
